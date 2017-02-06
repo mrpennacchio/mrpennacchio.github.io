@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Kele API Client
-thumbnail-path: "img/kele.png"
+thumbnail-path: "img/Kele.png"
 short-description: A ruby command line gem build to access the Bloc.io API
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/kele.png)
+![]({{ site.baseurl }}/img/Kele.png)
 
 ## Explanation
 
