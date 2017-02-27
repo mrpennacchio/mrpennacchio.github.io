@@ -1,6 +1,7 @@
 <header class="site-header">
 	<nav class="site-nav">
 		<ul>
+			<li><a href="{{site.baseurl}}/">Home</a></li>
 			{% for page in site.pages %}
 			{% if page.title and page.hide != true %}
 			<li>
@@ -8,16 +9,17 @@
 					{{ page.title }}
 				</a>
 			</li>
+
 			{% endif %}
 			{% endfor %}
 		</ul>
 	</nav>
 
 	{% if site.theme_settings.header_text %}
-  <div class="call-out" 
+  <div class="call-out"
   style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
   	<h1 class="site-title">
-			<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
+			<a class="name_top" href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
 		</h1>
 		<div class="divider"></div>
     {{ site.theme_settings.header_text }}

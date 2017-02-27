@@ -5,7 +5,7 @@ permalink: /about/
 feature-img: "img/color.png"
 ---
 {:.center}
-!["me"]({{ site.baseurl }}/img/me.jpg)
+!["me"]({{ site.baseurl }}/img/me.jpeg)
 
 Thanks for visiting my page!
 
