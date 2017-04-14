@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blocitoff
-thumbnail-path: "img/blocitoff_sign_in.png"
+thumbnail-path: "img/Blocitoff_sign_in.png"
 short-description: A self destructing to-do list. Items not marked complete are deleted after 7 days.
 
 ---
