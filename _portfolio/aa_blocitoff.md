@@ -7,7 +7,7 @@ short-description: A self destructing to-do list. Items not marked complete are 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocitoff_item_list.png)
+![]({{ site.baseurl }}/img/Blocitoff_item_list.png)
 
 ## Explanation
 Blocitoff is a self destructing to-do list built with Ruby on Rails. The project includes TDD, a rake task, as well as Ajax.
